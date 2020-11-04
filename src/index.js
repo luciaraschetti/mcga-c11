@@ -13,6 +13,7 @@ app.use(express.json());
 
 //routes
 app.use('/api/games',require('./routes/games'));
+app.use('/api/tournaments',require('./routes/tournaments'));
 
 //starting the server
 app.listen(app.get('port'), () => {

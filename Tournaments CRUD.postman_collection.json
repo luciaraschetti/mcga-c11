@@ -1,0 +1,137 @@
+{
+	"info": {
+		"_postman_id": "3dc48631-02b5-47bb-bed2-a37490722624",
+		"name": "CRUD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/tournaments",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"SIGLO 21 TFT\",\r\n        \"administrator\": \"SIGLO 21\",\r\n        \"game\": \"SIGLO 21\",\r\n        \"status\": \"Over\",\r\n        \"date\": \"04/11/2020\",\r\n        \"slots\": \"16/16\",\r\n        \"server\": \"LAS\",\r\n        \"settings\": \"El primero gana.\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/tournaments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"tournaments"
+					]
+				},
+				"description": "CRUD Tournaments"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/tournaments",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"SIGLO 22 TFT\",\r\n        \"administrator\": \"SIGLO 22\",\r\n        \"game\": \"SIGLO 22\",\r\n        \"status\": \"Over\",\r\n        \"date\": \"04/11/2020\",\r\n        \"slots\": \"16/16\",\r\n        \"server\": \"LAS\",\r\n        \"settings\": \"El primero gana.\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/tournaments/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"tournaments",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/tournaments",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"SIGLO 22 TFT\",\r\n        \"administrator\": \"SIGLO 22\",\r\n        \"game\": \"SIGLO 22\",\r\n        \"status\": \"Over\",\r\n        \"date\": \"04/11/2020\",\r\n        \"slots\": \"16/16\",\r\n        \"server\": \"LAS\",\r\n        \"settings\": \"El primero gana.\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/tournaments/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"tournaments",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/tournaments",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"SIGLO 22 TFT\",\r\n        \"administrator\": \"SIGLO 22\",\r\n        \"game\": \"SIGLO 22\",\r\n        \"status\": \"Over\",\r\n        \"date\": \"04/11/2020\",\r\n        \"slots\": \"16/16\",\r\n        \"server\": \"LAS\",\r\n        \"settings\": \"El primero gana.\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/tournaments/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"tournaments",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

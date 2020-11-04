@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "UAI LOL TOURNAMENT",
+        "administrator": "UAI",
+        "game": "League of Legends",
+        "status": "Over",
+        "date": "04/11/2020",
+        "slots": "16/16",
+        "server": "LAS",
+        "settings": "Si un jugador mata 100 minions antes que el otro gana."
+    },
+    {
+        "id": 2,
+        "name": "UTN BARBIE AVENTURAS A CABALLO TOURNAMENT",
+        "administrator": "UTN",
+        "game": "Barbie aventuras a caballo",
+        "status": "Posting",
+        "date": "04/11/2020",
+        "slots": "64/86",
+        "server": "LAS",
+        "settings": "El caballo que se muera primero pierde."
+    }
+]
