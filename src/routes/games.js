@@ -46,7 +46,7 @@ router.delete('/:id', (req, res) => {
             games.splice(i, 1);
         }
     });
-    res.send('deleted');
+    res.send(games);
 })
 
 module.exports = router;

@@ -1,0 +1,137 @@
+{
+	"info": {
+		"_postman_id": "e0d62d88-fc4c-42b3-b2b8-f16bcc4db45d",
+		"name": "Games CRUD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "UPDATE",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"FIFA\",\r\n    \"genre\": \"Sports\",\r\n    \"desc\": \"FIFA is a series of association football simulation video games developed and released annually by Electronic Arts under the EA Sports label\",\r\n    \"rating\": \"ESRB Everyone\",\r\n    \"version\": \"20\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/games/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"games",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "READ",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/games/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"games",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"FIFA\",\r\n    \"genre\": \"Sports\",\r\n    \"desc\": \"FIFA is a series of association football simulation video games developed and released annually by Electronic Arts under the EA Sports label\",\r\n    \"rating\": \"ESRB Everyone\",\r\n    \"version\": \"20\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/games/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"games",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"FIFA\",\r\n    \"genre\": \"Sports\",\r\n    \"desc\": \"FIFA is a series of association football simulation video games developed and released annually by Electronic Arts under the EA Sports label\",\r\n    \"rating\": \"ESRB Everyone\",\r\n    \"version\": \"20\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/games/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"games",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
