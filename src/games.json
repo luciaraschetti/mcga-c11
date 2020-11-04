@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "Rocket League",
+        "genre": "Sports",
+        "desc": "Rocket League is a fantastical sport-based video game, developed by Psyonix",
+        "rating": "ESRB Everyone 10+",
+        "version": "1.85"
+    },
+    {
+        "id": 2,
+        "name": "Hearthstone",
+        "genre": "Cards",
+        "desc": "Hearthstone is a free-to-play online digital collectible card game developed by Blizzard Entertainment",
+        "rating": "ESRB Teen",
+        "version": "18.6.1"
+    }
+]
